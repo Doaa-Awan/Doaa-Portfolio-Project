@@ -1,0 +1,39 @@
+:root {
+  --main-color: #ff54a2;
+}
+
+.nav-name {
+  font-family: "Kaushan Script", cursive;
+}
+
+.nav-name:hover {
+  color: var(--main-color);
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: linear-gradient(rgb(255, 84, 162, 0.7), rgb(255, 87, 90, 0.9));
+}
+
+.hero h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 90px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 1.5;
+  color: white;
+}
+
+.hero p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  color: white;
+}
