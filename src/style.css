@@ -121,7 +121,7 @@ a {
   background: var(--vertical-gradient);
 }
 
-.title{
+.title {
   text-transform: uppercase;
   font-family: var(--text-font);
   font-weight: 300;
@@ -163,7 +163,9 @@ a {
 } */
 
 .about-bg {
-  background-color: rgba(0, 0, 0, 0.866);
+  /* background-color: rgba(0, 0, 0, 0.866); */
+  background-color: rgb(33, 37, 41);
+  opacity: 1;
 }
 
 .about-header {
