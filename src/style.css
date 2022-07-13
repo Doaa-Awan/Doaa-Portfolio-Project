@@ -5,6 +5,20 @@
     rgb(255, 87, 90, 0.9)
   );
   --purple-gradient: linear-gradient(-225deg, #ff54a2 0%, #42a5f5 80%);
+  --text-font: "Raleway", sans-serif;
+  --name-font: "Kaushan Script", cursive;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 60% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 body {
@@ -12,7 +26,7 @@ body {
 }
 
 h2 {
-  font-family: "Kaushan Script", cursive;
+  font-family: var(--name-font);
   font-weight: 200;
   font-size: 35px;
   color: rgb(255, 87, 90);
@@ -20,7 +34,7 @@ h2 {
 }
 
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--text-font);
   text-align: left;
   margin: 15px 50px;
 }
@@ -52,20 +66,8 @@ a {
   position: relative;
 }
 
-@keyframes change {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 60% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
-
 .nav-name {
-  font-family: "Kaushan Script", cursive;
+  font-family: var(--name-font);
 }
 
 .nav-name:hover {
@@ -78,14 +80,14 @@ a {
 }
 
 .hero h1 {
-  font-family: "Kaushan Script", cursive;
+  font-family: var(--name-font);
   font-size: 120px;
   margin-bottom: 20px;
   color: white;
 }
 
 .hero h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--text-font);
   font-weight: 200;
   font-size: 25px;
   line-height: 1.5;
@@ -93,7 +95,7 @@ a {
 }
 
 .hero p {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--text-font);
   font-weight: 200;
   font-size: 25px;
   color: white;
@@ -105,9 +107,51 @@ a {
   top: 100px;
 }
 
-.weather-img-thmb{
+.weather-img-thmb {
   background: var(--vertical-gradient);
+}
 
+.about-bg{
+  background-color: rgba(0, 0, 0, 0.866);
+}
+
+.about-header {
+  margin: 160px auto;
+}
+
+.about-header img{
+  position: relative;
+  top: 130px;
+}
+
+.about-name {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-name p {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  color: white;
+}
+
+.about-name h1 {
+  font-family: var(--name-font);
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.about-name h3 {
+  font-family: var(--text-font);
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  font-size: 25px;
 }
 
 @media (max-width: 1000px) {
@@ -125,7 +169,29 @@ a {
     width: 400px;
   }
 
-  .weather-content{
+  .weather-content {
     margin-left: 60px;
+  }
+
+  .about-header{
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-name {
+    width: 400px;
+    height: 400px;
+  }
+
+  .about-name h1{
+    font-size: 65px;
+  }
+
+  .about-name p {
+    font-size: 25px;
+  }
+
+  .about-name h3 {
+    font-size: 20px;
   }
 }
