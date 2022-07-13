@@ -121,6 +121,15 @@ a {
   background: var(--vertical-gradient);
 }
 
+.title{
+  text-transform: uppercase;
+  font-family: var(--text-font);
+  font-weight: 300;
+  text-align: left;
+  color: grey;
+  margin-top: 60px;
+}
+
 .icons {
   margin-left: 50px;
   font-size: 25px;
@@ -131,13 +140,14 @@ a {
 .project-btn-primary {
   color: white;
   background: var(--vertical-gradient);
-  border-color: var(--main-color);
+  font-family: var(--text-font);
+  /* border-color: #ff54a2; */
 }
 
 .project-btn-primary:hover {
-  /* color: var(--main-color); */
   background: white;
-  /* opacity: 100%; */
+  color: var(--main-color);
+  border-color: var(--main-color);
 }
 
 .project-btn-secondary {
@@ -151,8 +161,6 @@ a {
   color: white;
   background: var(--vertical-gradient);
 } */
-
-
 
 .about-bg {
   background-color: rgba(0, 0, 0, 0.866);
