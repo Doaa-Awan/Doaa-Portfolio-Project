@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ff54a2;
+  --main-color: rgb(255, 87, 90);
   --vertical-gradient: linear-gradient(
     rgb(255, 84, 162, 0.7),
     rgb(255, 87, 90, 0.9)
@@ -73,10 +73,14 @@ a {
 .nav-name:hover {
   color: var(--main-color);
 }
+/* 
+.links{
+  padding-top: 250px;
+} */
 
 .hero {
   text-align: center;
-  padding: 250px 0;
+  padding: 200px 0;
 }
 
 .hero h1 {
@@ -102,6 +106,12 @@ a {
   text-align: center;
 }
 
+.hero a {
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+}
+
 .weather-content {
   position: relative;
   top: 100px;
@@ -111,7 +121,40 @@ a {
   background: var(--vertical-gradient);
 }
 
-.about-bg{
+.icons {
+  margin-left: 50px;
+  font-size: 25px;
+  color: var(--main-color);
+  opacity: 0.7;
+}
+
+.project-btn-primary {
+  color: white;
+  background: var(--vertical-gradient);
+  border-color: var(--main-color);
+}
+
+.project-btn-primary:hover {
+  /* color: var(--main-color); */
+  background: white;
+  /* opacity: 100%; */
+}
+
+.project-btn-secondary {
+  color: var(--main-color);
+  border-color: var(--main-color);
+  background: white;
+  opacity: 100%;
+}
+
+/* .project-btn-secondary:hover {
+  color: white;
+  background: var(--vertical-gradient);
+} */
+
+
+
+.about-bg {
   background-color: rgba(0, 0, 0, 0.866);
 }
 
@@ -119,7 +162,7 @@ a {
   margin: 160px auto;
 }
 
-.about-header img{
+.about-header img {
   position: relative;
   top: 130px;
 }
@@ -173,7 +216,7 @@ a {
     margin-left: 60px;
   }
 
-  .about-header{
+  .about-header {
     display: flex;
     justify-content: center;
   }
@@ -183,7 +226,7 @@ a {
     height: 400px;
   }
 
-  .about-name h1{
+  .about-name h1 {
     font-size: 65px;
   }
 
