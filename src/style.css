@@ -77,7 +77,9 @@ a {
 }
 
 .nav-name:hover {
-  color: var(--main-color);
+  /* color: #B274C3; */
+  /* color:#8588D7; */
+  color: hotpink;
 }
 /* 
 .links{
@@ -217,7 +219,7 @@ a {
   font-weight: 300;
 }
 
-.contact-header{
+.contact-header {
   color: grey;
   opacity: 0.5;
   font-size: 60px;
