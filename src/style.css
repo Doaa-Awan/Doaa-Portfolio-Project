@@ -176,18 +176,12 @@ a {
 } */
 
 .about-bg {
-  /* background-color: rgba(0, 0, 0, 0.866); */
   background-color: rgb(33, 37, 41);
   opacity: 1;
 }
 
 .about-header {
-  margin: 160px auto;
-}
-
-.about-header img {
-  position: relative;
-  top: 130px;
+  margin-top: 160px;
 }
 
 .about-name {
@@ -219,19 +213,81 @@ a {
   font-weight: 300;
 }
 
+.view-projects-btn {
+  width: 150px;
+  height: 150px;
+  /* margin: 50px; */
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+  font-family: var(--text-font);
+  text-transform: uppercase;
+  font-size: 20px;
+  background: linear-gradient(to right, hotpink, lightpink);
+  transition: all 200ms ease-in-out;
+  z-index: 1;
+}
+
+.rightArrow {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  font-size: 30px;
+}
+
+.about-content h4 {
+  font-size: 30px;
+}
+
+.about-content ul {
+  text-decoration: none;
+}
+
+.about-content ul li {
+  font-size: 20px;
+  font-family: var(--text-font);
+  font-weight: 200;
+  margin: 15px;
+  text-decoration: none;
+}
+
 .contact-header {
   color: grey;
   opacity: 0.5;
   font-size: 60px;
   font-weight: 200;
   text-transform: uppercase;
-  /* font-family: var(--name-font); */
   margin-top: 100px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .weather-content {
     top: 0px;
+  }
+
+  .about-header {
+    max-width: 576px;
+  }
+
+  .about-pic {
+    top: -100px;
+    width: 300px;
+  }
+
+  .view-projects-btn {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    padding-top: 35px;
+
+    position: relative;
+    top: -240px;
+    left: 40px;
+  }
+
+  .rightArrow {
+    font-size: 30px;
   }
 }
 
@@ -251,6 +307,26 @@ a {
   .about-header {
     display: flex;
     justify-content: center;
+  }
+
+  .about-pic {
+    top: -100px;
+    width: 300px;
+  }
+
+  .view-projects-btn {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    padding-top: 35px;
+
+    position: relative;
+    top: -240px;
+    left: 40px;
+  }
+
+  .rightArrow {
+    font-size: 30px;
   }
 
   .about-name {
