@@ -183,6 +183,11 @@ a {
   opacity: 1;
 }
 
+.intro-pg{
+  font-size: 18px;
+  line-height: 2;
+}
+
 .about-header {
   margin-top: 100px;
 }
