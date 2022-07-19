@@ -25,6 +25,10 @@ body {
   margin-bottom: 100px;
 }
 
+.margin-top {
+  margin-top: 100px;
+}
+
 h1 {
   font-family: var(--name-font);
   margin-bottom: 20px;
@@ -132,6 +136,7 @@ a {
   text-align: left;
   color: grey;
   margin-top: 60px;
+  /* font-size: 24px; */
 }
 
 .weather-content {
@@ -141,6 +146,15 @@ a {
 
 .weather-img-thmb {
   background: var(--vertical-gradient);
+}
+
+.project-coming-soon{
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  font-size: 30px;
+  padding: 110px 50px;
+  text-align: center;
 }
 
 .icons {
@@ -226,8 +240,11 @@ a {
   text-transform: uppercase;
   font-size: 20px;
   background: linear-gradient(to right, hotpink, lightpink);
-  transition: all 200ms ease-in-out;
-  z-index: 1;
+}
+
+.view-projects-btn:hover {
+  color: white;
+  border-color: black;
 }
 
 .rightArrow {
