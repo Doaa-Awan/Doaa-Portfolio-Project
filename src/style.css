@@ -148,7 +148,7 @@ a {
   background: var(--vertical-gradient);
 }
 
-.project-coming-soon{
+.project-coming-soon {
   width: 300px;
   height: 300px;
   margin: 0;
@@ -228,30 +228,18 @@ a {
 }
 
 .view-projects-btn {
-  /* width: 150px; */
-  /* height: 150px; */
-  /* margin: 50px; */
-  /* padding-top: 40px; */
   padding: 15px 20px;
   text-align: center;
-  color: white;
-  border-color: white;
   text-decoration: none;
   font-family: var(--text-font);
   text-transform: uppercase;
   font-size: 20px;
   line-height: 2;
-  background: linear-gradient(to right, hotpink, lightpink);
-}
-
-.view-projects-btn:hover {
-  
-  color: white;
-  /* border-color: black; */
+  /* background: linear-gradient(to right, hotpink, lightpink); */
 }
 
 .rightArrow {
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px var(--main-color);
   color: transparent;
   font-size: 30px;
   position: relative;
