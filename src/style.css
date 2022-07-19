@@ -21,10 +21,6 @@
   }
 }
 
-body {
-  /* margin-bottom: 100px; */
-}
-
 .margin-top {
   margin-top: 100px;
 }
@@ -81,14 +77,8 @@ a {
 }
 
 .nav-name:hover {
-  /* color: #B274C3; */
-  /* color:#8588D7; */
   color: hotpink;
 }
-/* 
-.links{
-  padding-top: 250px;
-} */
 
 .hero {
   text-align: center;
@@ -168,7 +158,6 @@ a {
   color: white;
   background: var(--vertical-gradient);
   font-family: var(--text-font);
-  /* border-color: #ff54a2; */
 }
 
 .project-btn-primary:hover {
@@ -235,7 +224,6 @@ a {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 2;
-  /* background: linear-gradient(to right, hotpink, lightpink); */
 }
 
 .view-projects-btn:hover {
@@ -277,12 +265,7 @@ a {
 }
 
 .text-grey {
-  /* color: rgb(190, 138, 238); */
   color: grey;
-}
-
-footer {
-  /* border: 1px solid var(--main-color); */
 }
 
 footer h4 {
@@ -308,10 +291,6 @@ footer .contact-links a {
   margin: 0 20px;
   -webkit-text-stroke: 1px var(--main-color);
   color: transparent;
-  /* color: var(--main-color); */
-  /* -webkit-text-stroke: 1px solid var(--main-color); */
-  /* color: transparent; */
-  /* background-color: var(--main-color); */
 }
 
 footer .contact-links a:hover {
@@ -332,7 +311,6 @@ footer .contact-btn:hover {
 }
 
 footer .up-arrow {
-  /* color: var(--main-color); */
   font-size: 32px;
   -webkit-text-stroke: 1px var(--main-color);
   color: transparent;
@@ -340,7 +318,7 @@ footer .up-arrow {
   top: 7px;
 }
 
-footer .up-arrow:hover{
+footer .up-arrow:hover {
   -webkit-text-stroke: none;
   color: var(--main-color);
   opacity: 0.7;
@@ -354,26 +332,6 @@ footer .up-arrow:hover{
   .about-header {
     max-width: 576px;
   }
-
-  /* .about-pic {
-    top: -100px;
-    width: 300px;
-  }
-
-  .view-projects-btn {
-    width: 150px;
-    height: 150px;
-    font-size: 20px;
-    padding-top: 35px;
-
-    position: relative;
-    top: -240px;
-    left: 40px;
-  }
-
-  .rightArrow {
-    font-size: 30px;
-  } */
 }
 
 @media (max-width: 576px) {
@@ -393,26 +351,6 @@ footer .up-arrow:hover{
     display: flex;
     justify-content: center;
   }
-
-  /* .about-pic {
-    top: -100px;
-    width: 300px;
-  }
-
-  .view-projects-btn {
-    width: 150px;
-    height: 150px;
-    font-size: 20px;
-    padding-top: 35px;
-
-    position: relative;
-    top: -240px;
-    left: 40px;
-  }
-
-  .rightArrow {
-    font-size: 30px;
-  } */
 
   .about-name {
     width: 400px;
