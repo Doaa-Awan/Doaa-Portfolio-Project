@@ -402,11 +402,41 @@ footer .up-arrow:hover {
   .about-header {
     max-width: 576px;
   }
+
+  .contactpg-title p {
+    font-size: 40px;
+  }
+
+  .contactpg-title h2 {
+    font-size: 30px;
+  }
+
+  .contactme-icons a {
+    font-size: 80px;
+    margin: 0 20px;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    padding-top: 35px;
+  }
+
+  .contactme-icon-title {
+    font-size: 30px;
+  }
+
+  .contactme-icon-title2 {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 90px;
+  }
+
+  .down-icon {
+    font-size: 50px;
+    margin: 80px 40px;
   }
 
   .weather-img {
@@ -437,5 +467,22 @@ footer .up-arrow:hover {
 
   .about-name h3 {
     font-size: 20px;
+  }
+
+  .contactme-icons a {
+    font-size: 55px;
+    margin: 0 10px;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+  }
+
+  .contactme-icon-title {
+    font-size: 20px;
+  }
+
+  .contactme-icon-title2 {
+    display: none;
   }
 }
