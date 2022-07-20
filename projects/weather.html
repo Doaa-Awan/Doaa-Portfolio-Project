@@ -70,55 +70,64 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <h4 class="title">overview</h4>
+    <div class="container weather-pg">
+      <h2 class="">
+        <a href="/index.html#weather-home" class="fa-solid fa-angles-left"></a>
+        Weather App
+      </h2>
+       <p class="text-muted ms-5 mt-3 ">
+            Made with HTML, CSS, JavaScript, and Bootstrap
+            <div class="d-flex mt-3 ">
+              <div class="icons">
+                <i class="fa-brands fa-html5 me-2" title="HTML 5"></i>
+                <i class="fa-brands fa-css3 me-2" title="CSS 3"></i>
+                <i class="fa-brands fa-js me-2" title="JavaScript"></i>
+                <i class="fa-brands fa-bootstrap me-2" title="Bootstrap"></i>
+                <i class="fa-brands fa-github-square me-2" title="GitHub"></i>
+              </div>
+            </div>
+          </p>
+
       <div class="row">
-        <div class="col-md weather-content p-5">
-          <h2>Weather App</h2>
-          <p class="colorLine1 p-3">
+        <h4 class="title text-end m-0">mobile</h4>
+        <div class="col-md-7 ">
+          <img src="/images/iphone-weather.png" class="img-fluid weather-img" />
+        </div>
+        <!-- <div class="col-md">
+          <img src="/images/iphone-weather.png" class="img-fluid weather-img" />
+        </div> -->
+        <div class="col-md-5 weather-content">
+          <p class="colorLine1 ps-3">
             Responsive weather app that uses real live data from
             <a href="https://openweathermap.org/api">Open Weather Map</a> API.
             Mobile version features dark mode toggle switch, and current
             location button. Hosted on Netlify.
           </p>
-          <div class="d-flex mt-3">
-            <div class="icons">
-              <i class="fa-brands fa-html5 me-2" title="HTML 5"></i>
-              <i class="fa-brands fa-css3 me-2" title="CSS 3"></i>
-              <i class="fa-brands fa-js me-2" title="JavaScript"></i>
-              <i class="fa-brands fa-bootstrap me-2" title="Bootstrap"></i>
-              <i class="fa-brands fa-github-square me-2" title="GitHub"></i>
-            </div>
-            <div class="ms-5">
-              <a
-                href="https://splendorous-elf-d506b4.netlify.app/"
-                target="_blank"
-                class="btn project-btn-primary ms-4"
-                >Try it out
-                <i class="ps-1 fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
+          <div class="d-flex justify-content-end me-5">
+            <a
+              href="https://splendorous-elf-d506b4.netlify.app/"
+              target="_blank"
+              class="btn project-btn-secondary ms-2 mt-3"
+              >Try it out
+              <i class="ps-1 fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
           </div>
+            <div class="col-md d-flex justify-content-start">
+          <img src="/images/weather3.png" class="img-fluid border rounded-circle mt-4 p-4" />
         </div>
-
-        <div class="col-md d-flex justify-content-center">
-          <img
-            src="/images/iphone-weather.png"
-            class="img-fluid mt-3 weather-img"
-          />
         </div>
       </div>
-      <h4 class="title mb-5">features</h4>
+      <h4 class="title mb-5">desktop</h4>
 
       <div class="row">
-        <div class="col-md-8 d-flex justify-content-center m-0">
-          <img src="/images/weather-desktop1.png" class="img-fluid" />
-        </div>
         <div class="col-md">
-          <p>
+          <p class="colorLine1 ps-3">
             Desktop version includes animated CSS background, video backgrounds,
             and video audio toggle button.
           </p>
+        </div>
+        <div class="col-md-8 d-flex justify-content-center m-0">
+          <img src="/images/weather-desktop1.png" class="img-fluid" />
         </div>
       </div>
 
