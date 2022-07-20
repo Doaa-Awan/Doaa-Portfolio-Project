@@ -246,6 +246,7 @@ a {
 
 .about-content h4 {
   font-size: 30px;
+  color: var(--main-color);
 }
 
 .about-content ul {
