@@ -315,7 +315,7 @@ footer .up-arrow:hover {
 }
 
 .about-content ul {
-  padding: 0 80px;
+  padding: 0 50px;
   list-style: none;
 }
 
@@ -539,4 +539,23 @@ footer .up-arrow:hover {
   .weather-pg {
     overflow: hidden;
   }
+
+  footer .contact-btn {
+    font-size: 13px;
+  }
+
+  footer h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  footer .email-link {
+    font-size: 15px;
+  }
+
+  #weather-img-iphone-2 {
+    width: 300px;
+  }
+
+  
 }
