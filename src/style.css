@@ -394,9 +394,18 @@ footer .up-arrow:hover {
   font-size: 50px;
 }
 
-/* #weather-img-iphone-2 {
+#weather-img-iphone-2 {
+  width: 400px;
   position: relative;
   top: 60px;
+}
+
+#weatherpg-p1 {
+  position: relative;
+  top: 60px;
+}
+
+/* #weather-img-iphone-2 {
 } */
 
 @media (max-width: 1200px) {
@@ -442,16 +451,24 @@ footer .up-arrow:hover {
     margin-right: 20px;
   }
 
+  .weather-pg h2 {
+    font-size: 40px;
+    margin-left: 30px;
+    /* text-align: center; */
+  }
+
   #weather-img-iphone-2 {
     width: 350px;
+    top: 20px;
   }
 
   #weatherpg-p1 {
     margin-left: 0;
     margin-right: 70px;
+    top: 20px;
   }
 
-  #weatherpg-p1, #weather-img-iphone-2{
+  #weatherpg-p1 {
     position: relative;
     left: 50px;
   }
