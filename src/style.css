@@ -481,22 +481,34 @@ footer .up-arrow:hover {
 }
 
 @media (max-width: 576px) {
+  p {
+    margin-right: 0;
+  }
+
   .hero h1 {
-    font-size: 90px;
+    font-size: 70px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 20px;
   }
 
   .down-icon {
-    font-size: 50px;
-    margin: 80px 40px;
+    font-size: 40px;
+    margin: 120px 40px;
   }
 
   .weather-img {
     width: 400px;
   }
 
-  .weather-content {
+  /* .weather-content {
     margin-left: 60px;
-  }
+  } */
 
   .about-header {
     display: flex;
@@ -518,6 +530,40 @@ footer .up-arrow:hover {
 
   .about-name h3 {
     font-size: 20px;
+  }
+
+  .about-content h4 {
+    font-size: 25px;
+    margin: 30px !important;
+  }
+
+  .about-content ul {
+    padding: 0;
+  }
+
+  .about-content ul li {
+    font-size: 15px;
+  }
+
+  .about-content .project-btn-primary {
+    font-size: 13px;
+  }
+
+  .project-coming-soon {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    font-size: 25px;
+    padding: 90px 50px;
+    text-align: center;
+  }
+
+  .contact-header {
+    margin-left: 0;
+  }
+
+  .contactme-icons {
+    margin-bottom: 60px;
   }
 
   .contactme-icons a {
@@ -542,23 +588,62 @@ footer .up-arrow:hover {
   }
 
   footer .contact-btn {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   footer h4 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
   }
 
   footer .email-link {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   #weather-img-iphone-2 {
     width: 300px;
   }
 
+  .weather-img-thmb {
+    width: 250px;
+  }
+
   .up-arrow {
     display: none;
+  }
+
+  .img-me {
+    width: 250px;
+  }
+
+  .intro-pg p {
+    font-size: 15px;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .projects-weather-p {
+    margin: 20px 0px 0px;
+  }
+
+  /* .marginleftsm0 {
+    margin-left: 0;
+  } */
+
+  .msm20 {
+    margin: 20px;
+  }
+
+  .mlsm20 {
+    margin-left: 20px;
+  }
+
+  .mbsm20 {
+    margin-bottom: 20px;
+  }
+
+  .weather-pg .tryitbtn {
+    justify-content: center !important;
+    margin: 0 !important;
   }
 }
