@@ -557,5 +557,7 @@ footer .up-arrow:hover {
     width: 300px;
   }
 
-  
+  .up-arrow{
+    display: none;
+  }
 }
