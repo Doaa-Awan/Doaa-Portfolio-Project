@@ -316,14 +316,15 @@ footer .up-arrow:hover {
 
 .about-content ul {
   padding: 0 50px;
-  list-style: none;
+  list-style: circle;
 }
 
 .about-content ul li {
   font-size: 20px;
   font-family: var(--text-font);
-  font-weight: 200;
+  font-weight: 300;
   margin: 15px;
+  padding-left: 20px;
 }
 
 .about-content a:hover {
@@ -557,7 +558,7 @@ footer .up-arrow:hover {
     width: 300px;
   }
 
-  .up-arrow{
+  .up-arrow {
     display: none;
   }
 }
