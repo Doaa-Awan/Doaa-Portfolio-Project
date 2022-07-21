@@ -72,47 +72,54 @@
     </nav>
     <div class="container weather-pg">
       <h2 class="">
-        <a href="/index.html#weather-home" class="fa-solid fa-angles-left backArrow"></a>
+        <a
+          href="/index.html#weather-home"
+          class="fa-solid fa-angles-left backArrow"
+        ></a>
         Weather App
       </h2>
-       <p class="text-muted ms-5 mt-3 ">
-            Made with HTML, CSS, JavaScript, and Bootstrap
-            <div class="d-flex mt-3 ">
-              <div class="icons">
-                <i class="fa-brands fa-html5 me-2" title="HTML 5"></i>
-                <i class="fa-brands fa-css3 me-2" title="CSS 3"></i>
-                <i class="fa-brands fa-js me-2" title="JavaScript"></i>
-                <i class="fa-brands fa-bootstrap me-2" title="Bootstrap"></i>
-                <i class="fa-brands fa-github-square me-2" title="GitHub"></i>
-              </div>
-            </div>
-          </p>
 
       <div class="row">
-        <h4 class="title text-end m-0">mobile</h4>
-        <div class="col-md-7 ">
+        <!-- <h4 class="title mb-5 " id="weatherpg-title1">mobile</h4> -->
+        <div class="col-md-7 mb-5">
           <img src="/images/iphone-weather.png" class="img-fluid weather-img" />
+          <p class="text-muted mt-3 text-center">
+            Made with HTML, CSS, JavaScript, and Bootstrap
+          </p>
+          <div class="d-flex mt-3 justify-content-center">
+            <div class="icons m-0">
+              <i class="fa-brands fa-html5 me-2" title="HTML 5"></i>
+              <i class="fa-brands fa-css3 me-2" title="CSS 3"></i>
+              <i class="fa-brands fa-js me-2" title="JavaScript"></i>
+              <i class="fa-brands fa-bootstrap me-2" title="Bootstrap"></i>
+              <i class="fa-brands fa-github-square me-2" title="GitHub"></i>
+            </div>
+            <span class="ms-4">
+              <a
+                href="https://splendorous-elf-d506b4.netlify.app/"
+                target="_blank"
+                class="btn project-btn-secondary"
+                >Try it out
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </span>
+          </div>
         </div>
-      
-        <div class="col-md-5 weather-content">
-          <p class="colorLine1 ps-3">
+
+        <div class="col-md  ">
+          <p class="colorLine1 ps-3" id="weatherpg-p1">
             Responsive weather app that uses real live data from
             <a href="https://openweathermap.org/api">Open Weather Map</a> API.
             Mobile version features dark mode toggle switch, and current
             location button. Hosted on Netlify.
           </p>
-          <div class="d-flex justify-content-end me-5">
-            <a
-              href="https://splendorous-elf-d506b4.netlify.app/"
-              target="_blank"
-              class="btn project-btn-secondary ms-2 mt-3"
-              >Try it out
-              <i class="ps-1 fa-solid fa-arrow-up-right-from-square"></i
-            ></a>
+          <div class="col-md d-flex justify-content-start">
+            <img
+              src="/images/weather4.png"
+              id="weather-img-iphone-2"
+              class="img-fluid border rounded-circle shadow mt-4 darkBg p-2"
+            />
           </div>
-        <div class="col-md d-flex justify-content-start">
-          <img src="/images/weather3.png" class="img-fluid border rounded-circle mt-4 p-4" />
-        </div>
         </div>
       </div>
       <h4 class="title mb-5">desktop</h4>
@@ -131,7 +138,7 @@
 
       <h4 class="title mb-5">the design process</h4>
     </div>
-     <footer
+    <footer
       class="mt-5 contact-box d-flex justify-content-between container p-5 mb-2 rounded"
     >
       <div>
@@ -143,7 +150,7 @@
         >
       </div>
 
-      <div class="contact-links">
+      <div class="contact-links d-none d-md-block">
         <a
           href="https://www.linkedin.com/in/doaa-awan/"
           target="_blank"
