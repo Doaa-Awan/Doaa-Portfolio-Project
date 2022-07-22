@@ -649,6 +649,11 @@ footer .up-arrow:hover {
 
   .weather-content p {
     font-size: 15px;
-    
+  }
+
+  .open-source-link {
+    margin: 0;
+    font-size: 11px;
+    margin-bottom: 20px;
   }
 }
