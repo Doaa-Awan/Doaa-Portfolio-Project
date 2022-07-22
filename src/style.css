@@ -626,9 +626,9 @@ footer .up-arrow:hover {
     margin: 20px 0px 0px;
   }
 
-  /* .marginleftsm0 {
+  .mlsm0 {
     margin-left: 0;
-  } */
+  }
 
   .msm20 {
     margin: 20px;
@@ -645,5 +645,10 @@ footer .up-arrow:hover {
   .weather-pg .tryitbtn {
     justify-content: center !important;
     margin: 0 !important;
+  }
+
+  .weather-content p {
+    font-size: 15px;
+    
   }
 }
