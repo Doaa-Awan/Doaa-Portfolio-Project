@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:wght@100;200;300;400;500&display=swap');
+
 :root {
   --main-color: rgb(255, 87, 90);
   --vertical-gradient: linear-gradient(
@@ -312,6 +314,7 @@ footer .up-arrow:hover {
 .about-content h4 {
   font-size: 30px;
   color: var(--main-color);
+  margin-bottom: 30px;
 }
 
 .about-content ul {
@@ -405,6 +408,14 @@ footer .up-arrow:hover {
   position: relative;
   top: 20px;
 }
+
+/* COLOURS */
+
+.purple {
+  color: #CB6CE6;
+
+}
+
 
 /* #weather-img-iphone-2 {
 } */
