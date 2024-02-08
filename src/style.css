@@ -558,7 +558,7 @@ footer .up-arrow:hover {
 
   .down-icon {
     font-size: 40px;
-    margin: 120px 40px;
+    margin: 90px 40px;
   }
 
   .weather-img {
@@ -644,6 +644,15 @@ footer .up-arrow:hover {
 
   .weather-pg {
     overflow: hidden;
+  }
+
+  .weather-pg .title {
+    margin-top: 20px;
+  }
+
+  .home-pg hr {
+    display: none;
+  
   }
 
   footer .contact-btn {
